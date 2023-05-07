@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dropdown</title>
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand brand-tag" href="#">snap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav-links">
+          
+          <li class="nav-item dropdown li-item">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Features
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">TodoList</a>
+              <a class="dropdown-item" href="#">Calender</a>
+              <a class="dropdown-item" href="#">Remainder</a>
+              <a class="dropdown-item" href="#">Planning</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown li-item">
+            <a class="nav-link dropdown-toggle dropdown-view" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Company
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">History</a>
+              <a class="dropdown-item" href="#">OurTeam</a>
+              <a class="dropdown-item" href="#">Blog</a>
+            </div>
+          </li>
+
+          <li class="nav-item li-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          
+          <li class="nav-item li-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+        </ul>
+
+        <!-- ms-auto(spacing) ,,mx-auto(aligned at centre) -->
+        <form class="form-inline my-2 my-lg-0 ms-auto button-form"> 
+            <button class="btn mr-sm-2 button-form-b button-form-b1">Login</button>
+            <button class="btn btn-outline-dark my-2 my-sm-0 button-form-b">Register</button>
+        </form>
+      </div>
+    </nav>
+
+    <header class="body-grid">
+        <div class="content">
+            <h1>Make remote work</h1>
+            <p>Get your team in sync,no matter your location.Streamline processes,create team rituals,and watch productivity sour.</p>
+            <button class="button btn btn-outline-dark">Learn more</button>
+
+            <div class="svgs">
+                <svg>
+                    <img src="images/client-databiz.svg">
+                </svg>
+                <svg>
+                    <img src="images/client-audiophile.svg">
+                </svg>
+                <svg>
+                    <img src="images/client-meet.svg">
+                </svg>
+                <svg>
+                    <img src="images/client-maker.svg">
+                </svg>
+            </div>
+        </div>
+
+        <img class="big-img" src="images/image-hero-desktop.png">
+        
+    </header>
+
+
+    <!-- Jquery and bootstrap script Links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
